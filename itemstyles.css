@@ -1,0 +1,32 @@
+ul{
+    background-color: grey;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+li{
+    list-style: none;
+    padding: 10px;
+    color: aliceblue;
+    margin: 10px;
+    background-color: blue;
+    /* width: 100px; */
+    /* height: 100px; */
+
+    /* flex items property */
+}
+/* flex items property */
+/* without change the html source we can rarrange the order using ****ORDER**** property */
+/* default is zero can use +ve or -ve values */
+li:nth-child(3){
+    order: 1;
+}
+li:nth-child(1){
+    order: 2;
+}
+li:nth-child(2){
+    order: 3;
+}
+li:nth-child(5){
+    order: -1;
+}
